@@ -1,0 +1,75 @@
+body {
+    background-color: #1e3c72;
+}
+
+.container-box {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+@keyframes fadeBounce {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: translateY(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 20px;
+    animation: fadeBounce 1.5s ease-in-out;
+}
+
+input,select {
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.btn-custom {
+    background: #2a5298;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn-custom:hover {
+    background: #1e3c72;
+}
+
+.btn-reset {
+    background: #dc3545;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn-reset:hover {
+    background: #bb2d3b;
+}
+
+#result {
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
